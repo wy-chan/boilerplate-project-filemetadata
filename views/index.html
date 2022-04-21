@@ -10,24 +10,42 @@
 
    <body>
       <div class="container">
-        <h2>API Project: File Metadata Microservice</h2>
-
+        <h2>
+          <span>API Project:</span>
+          <br>
+          <b>File Metadata Microservice</b>
+        </h2>
+      <div class="example-div">
+      <div class="example-box">
         <h3>Usage:</h3>
         <p>
           Please Upload a File ...
         </p>
+      </div>
+      <div class="example-box">
+         <h3>Example Output:</h3>
+        <div class="code-div">
+        <code>
+          {<br>"name":"Untitled.png",<br>"type":"image/png",<br>"size":451<br>}
+        </code>
+      </div>
+      </div>
+      </div>
         <div class="view">
           <h4 id="output"></h4>
           <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
-            <input id="inputfield" type="file" name="upfile">
+            <input id="inputfield" type="file" name="upfile" required>
             <input id="button" type="submit" value="Upload">
           </form>
         </div>
       </div>
       <div class="footer">
         <p>
-          by 
-          <a href="http://www.freecodecamp.com">freeCodeCamp</a>
+          Project by 
+          <em><a href="http://www.freecodecamp.com">freeCodeCamp</a></em>
+          • 
+          completed by
+          <em><a href="https://github.com/wy-chan">wy-chan</a></em>
         </p>
       </div>
    </body>

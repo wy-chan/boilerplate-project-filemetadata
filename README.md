@@ -11,7 +11,7 @@
 
 https://boilerplate-project-filemetadata.wy-chan.repl.co
 
-| <a href="https://boilerplate-project-filemetadata.wy-chan.repl.co"><img  src="images/screen_filemetadata.png" alt="screenshot" height="100"/></a> |
+| <a href="https://boilerplate-project-filemetadata.wy-chan.repl.co"><img  src="images/screen_filemetadata.png" alt="screenshot" height="150"/></a> |
 | ------- |
 
 
